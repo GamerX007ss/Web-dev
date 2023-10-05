@@ -3,7 +3,7 @@
 body
 {
  height:100vh;
- width:100vh;
+ width:100vw;
  background-color: hsla(280,20%, 70%, 0.3);
  font:normal normal normal 12px/1.5 verdana,Arial,Helvetica,sans-serif;
  padding:2em;
@@ -12,4 +12,51 @@ h2
 {
     color: #fc9;
     font-size:2rem;
+}
+header
+{
+    background-color: hsl(248, 81%, 47%);
+}
+main
+{
+    width:65vw;
+    float:left;
+    background-color: hsl(136, 81%, 55%);
+    height:60vh;
+}
+
+aside
+{
+    float: right;
+    width:25vw;
+    background-color: hsl(168, 82%, 34%);
+    height:60vh;
+}
+footer
+{
+    clear:both;
+    background-color: hsl(202, 70%, 28%);
+}
+
+.structural
+{
+padding:10px;
+margin:10px;
+border: 2px solid black;
+}
+#para1
+{
+    color:rgb(56, 144, 112);
+}
+#para2
+{
+    color:rgb(189, 11, 31);
+}
+a:hover
+{
+    color:blue;
+}
+footer p
+{
+font-size: .75em;
 }
