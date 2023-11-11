@@ -25,30 +25,41 @@ email:pranav007ss@gmail.com
 <main>
     <form action="">
     <h2>Contact</h2>
+    <div>
     <label for="name">Name</label><br>
     <input type="text" name="name" id="name" autofocus required><br>
+    </div>
+    <div>
     <label for="mail">Email</label><br>
     <input type="email" name="mail" id="mail" required>
+</div>
+    
+    
     <fieldset>
         <legend>What section of PROG1245 are you in</legend>
         <label for="4">Section 4</label>
-        <input type="radio" name="sec" id="4" value="4" checked> <br>
+        <input type="radio" name="sec" id="4" value="4" required checked> <br>
         <label for="5">Section 5</label>
         <input type="radio" name="sec" id="5" value="5"> <br>
         <label for="8">Section 8</label>
         <input type="radio" name="sec" id="8" value="8">  
         </fieldset>
-        <label for="sel">What do you need help with</label><br>
-        <select>
+        <div>
+        <label for="help">What do you need help with</label>
+        <select name="help" id="help" required>
+            <option value="">Select</option>
             <option value="html">HTML</option>
             <option value="css">CSS</option>
             <option value="both">HTML & CSS</option>
-        </select><br>
-        <label for="comments">Comments</label><br>
-        <textarea row="4"></textarea><br>
-        <input type="checkbox" value="true"  checked>
-        <label for="human">I am a Human</label><br>
-        <input type="submit">
+        </select>
+    </div>
+    <div>
+        <label for="comments">Comments</label>
+        <textarea row="4" required></textarea><br>
+</div>
+        <input type="checkbox" value="true" required  checked>
+        <label for="human">I am a Human</label>
+        <input type="submit" id="submit" value="submit">
         </form>
 </main>
      <aside class="structural">

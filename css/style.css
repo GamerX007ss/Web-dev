@@ -89,7 +89,7 @@ nav ul li a
     padding: 5px;
     
 }
-a:hover
+nav ul li a:hover
 {
     border: 2px solid cornsilk;
     background-color: indigo;
@@ -100,47 +100,19 @@ form
     border: 5px dashed black;
     padding: 5px;
 }
-input[type="text"]
+input[type="text"], input[type="email"],input[type="submit"],select,option
 {
 width: 50%;
 display: block;
 height: 2em;
 }
-input[type="email"]
-{
-width: 50%;
-display: block;
-height: 2em;
-}
-input[type="submit"]
-{
-width: 50%;
-display: block;
-height: 2em;
-}
-input[type="select"]
-{
-width: 50%;
-display: block;
-height: 2em;
-}
-input[type="option"]
-{
-width: 50%;
-display: block;
-height: 2em;
-}
-input[type="radio"]
+
+input[type="radio"],input[type="checkbox"]
 {
     height: 2em;
     width:2em;;
 }
 
-input[type="checkbox"]
-{
-    height: 2em;
-    width:2em;;
-}
 textarea
 {
     width: 50%;
