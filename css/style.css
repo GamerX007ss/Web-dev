@@ -22,7 +22,7 @@ main
     width:65vw;
     float:left;
     background-color: hsl(136, 81%, 55%);
-    height:60vh;
+    
 }
 
 aside
@@ -30,7 +30,7 @@ aside
     float: right;
     width:25vw;
     background-color: hsl(168, 82%, 34%);
-    height:60vh;
+    
 }
 footer
 {
@@ -52,11 +52,107 @@ border: 2px solid black;
 {
     color:rgb(189, 11, 31);
 }
-a:hover
+aside ul li a:hover
 {
     color:blue;
 }
 footer p
 {
 font-size: .75em;
+}
+h1{
+color:red ; 
+font-size: 20px;
+}
+aside ul
+{
+
+    list-style-type: square;
+}
+ li a
+{
+    color:rgba(39,41,1,0.8);
+    line-height: 2em;
+}
+nav ul li
+{
+    display: inline;
+    list-style-type: none;
+    
+}
+nav ul li a
+{
+    border:2px solid indigo;
+    color:indigo;
+    background-color: cornsilk;
+    text-decoration: none;
+    padding: 5px;
+    
+}
+a:hover
+{
+    border: 2px solid cornsilk;
+    background-color: indigo;
+    color:cornsilk;
+}
+form
+{
+    border: 5px dashed black;
+    padding: 5px;
+}
+input[type="text"]
+{
+width: 50%;
+display: block;
+height: 2em;
+}
+input[type="email"]
+{
+width: 50%;
+display: block;
+height: 2em;
+}
+input[type="submit"]
+{
+width: 50%;
+display: block;
+height: 2em;
+}
+input[type="select"]
+{
+width: 50%;
+display: block;
+height: 2em;
+}
+input[type="option"]
+{
+width: 50%;
+display: block;
+height: 2em;
+}
+input[type="radio"]
+{
+    height: 2em;
+    width:2em;;
+}
+
+input[type="checkbox"]
+{
+    height: 2em;
+    width:2em;;
+}
+textarea
+{
+    width: 50%;
+    display: block;
+}
+fieldset
+{
+    border:none;
+}
+select,option,label,legend,input[type="submit"]
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-variant: small-caps;
 }
